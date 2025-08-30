@@ -2,7 +2,7 @@ import { useState ,useEffect } from 'react'
 import axios from 'axios'
 import './App.css'
 import Banner from './components/Banner'
-import Body from './components/body'
+import Body from './components/BodyDisp'
 
 function App() {
   const [animalData, setData] = useState(0)
