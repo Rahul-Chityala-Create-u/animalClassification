@@ -3,11 +3,22 @@ import { useState, useEffect } from 'react'
 
 export default function Banner() {
     useEffect(()=>{
-        const bannerElement = document.querySelectorAll("#bannerHolder")[0]
+        const bannerElement = document.querySelectorAll("#bannerHolder h1")[0]
         let counter = 0;
+        let countryArr = ['WILDLIFE MUMBAI','WILDLIFE ASIA','WILDLIFE AFRICA','WILDLIFE AUSTRIALA','WILDLIFE EUROPE']
+       let index= 0
         // setInterval(()=>{
-        //     console.log(bannerElement)
-        // },10000)
+        //     // for (let index = 0; index < countryArr.length; index++) {
+        //         const PLACE = countryArr[index];
+        //         bannerElement.textContent = PLACE
+        //         index++;
+        //     // }
+
+
+                
+        // },1000)
+       
+         
     });
     return (
     <>
