@@ -102,6 +102,8 @@
     /* font-weight: 700; */
     font-size: 18px;
         line-height: 45px;
+        gap: 10px;
+        margin-top: 10px;
 }
 .optionSelector>ul>li{
 padding: 10px;
@@ -109,6 +111,7 @@ padding: 10px;
     cursor: pointer;
     border-top-right-radius: 12.5px;
     border-bottom-right-radius: 12.5px;
+    background-color: #f4f4f4;
 }
 .optionSelector>ul>li:hover{
     background: #f4f4f4;
@@ -116,6 +119,9 @@ padding: 10px;
     border-top-right-radius: 12.5px;
     border-bottom-right-radius: 12.5px;
     cursor: pointer;
+    box-shadow: 3px 0px 4px -4px;
+    background-color: #506d50;
+    color: white;
 }
 .hide{
  display: none !important;
@@ -190,6 +196,9 @@ padding: 10px;
     }
     .animalnames{
       width: 100%;
+    }
+    .optionSelector>ul{
+      flex-direction: row;
     }
   }
   #bannerHolder >h1{
